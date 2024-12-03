@@ -3,7 +3,7 @@ import Navbar from "../pages/shared/Navbar";
 
 const Main = () => {
     return (
-        <div className="h-screen">
+        <div className="">
                 <Navbar/>
                 <Outlet/>
         </div>

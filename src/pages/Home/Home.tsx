@@ -1,13 +1,13 @@
 import Banner from "./Banner/Banner";
-import FavoriteBooks from "./FavoriteBooks/FavoriteBooks";
+import BestSellerBooks from "./BestSellerBooks/BestSellerBooks";
+import FavBooks from "./FavBooks/FavBooks";
 
 const Home = () => {
     return (
-        <div className="h-screen">
+        <div className="">
             <Banner/>
-            <FavoriteBooks/>
-            {/* <FavoriteBooks/>
-            <div className="h-screen"></div> */}
+            <BestSellerBooks/>
+            <FavBooks/>
         </div>
     );
 };

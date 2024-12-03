@@ -37,7 +37,7 @@ const Navbar = () => {
             {link:"Blog", path:"/blog"}
     ]
     return (
-        <header className={`w-full bg-transparent z-10 top-0 left-0 right-0 transition-all ease-in duration-300 ${isSticky ? "sticky top-0 left-0 right-0 bg-blue-300" : ""}`}>
+        <header className={`w-full top-0 left-0 right-0 transition-all ease-in duration-300 ${isSticky ? "sticky top-0 left-0 right-0 bg-blue-300" : ""}`}>
             <nav className={`py-4 lg:px-24 px-4`}>
                 <div className="flex justify-between items-center text-base gap-2">
                     {/* logo */}
