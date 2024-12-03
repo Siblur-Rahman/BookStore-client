@@ -12,11 +12,13 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import { Link } from 'react-router-dom';
 import { FaCartArrowDown } from 'react-icons/fa';
+import SectionHeading from '../../shared/SectionHeading';
 
 const BookCard = ({books, headline}) => {
     return (
         <div className="my-16 px-4 lg:px-24">
-            <h2 className="text-center text-5xl font-bold text-black my-5">{headline}</h2>
+            {/* <h2 className="text-center text-5xl font-bold text-black my-5">{headline}</h2> */}
+            <SectionHeading text={headline}/>
       <div className='mt-12'>
             <Swiper
         slidesPerView={1}
