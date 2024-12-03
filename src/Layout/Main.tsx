@@ -1,10 +1,12 @@
 import { Outlet } from "react-router-dom";
+import Navbar from "../pages/shared/Navbar";
 
 const Main = () => {
     return (
-        <div className="pt-20 min-h-screen max-w-screen-xl">
-        <Outlet/>
-    </div>
+        <div className="h-screen">
+                <Navbar/>
+                <Outlet/>
+        </div>
     );
 };
 
